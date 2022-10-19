@@ -18,4 +18,5 @@ app.use((request, response, next) => {
   response.status(404).sendFile(path.join(__dirname, "views", "404.html"));
 });
 
+console.log("started...");
 app.listen(3000);
